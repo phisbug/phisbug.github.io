@@ -1,0 +1,78 @@
+
+body 
+{
+	background:rgb(123,121,143);	
+}
+
+.container
+{
+	width:960px;
+	margin:0 auto;
+	font:100% Georgia, "Times New Roman", Times, serif;
+	background:#fff;	
+}
+
+header
+{
+	background:rgb(76, 67, 65);
+	margin-bottom:20px;
+}
+
+header h1 
+{
+	text-align:center;
+	color:white;
+	font:normal 2em Arial, Helvetica, sans-serif;
+	line-height:4em;
+	text-transform:uppercase;
+	letter-spacing::.1em;
+	margin:0;	
+}
+
+
+
+
+
+footer
+{
+	background:rgb(100, 98, 102);
+	line-height:3em;
+	font-size:.6em;
+	color:white;
+	padding:0.2em;
+	text-align:center;
+	clear:both;
+}
+
+article
+{
+	float:left;
+	width:634px;
+}
+
+.col1
+{
+	width:266px;
+	height:500px;
+	float:left;
+	background:rgb(237,228,214);
+	padding:20px;	
+}
+
+.col2
+{
+	width:266px;
+	height:500px;
+	float:right;
+	background:rgb(219,126,64);
+	padding:20px;		
+}
+
+aside
+{
+	width:266px;
+	height:500px;
+	float:right;
+	background:rgb(173, 169, 130);
+	padding:20px;		
+}

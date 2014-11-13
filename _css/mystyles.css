@@ -1,0 +1,67 @@
+ 
+ 
+ .wrap.container
+ {
+	position:relative;	 
+ }
+ 
+ nav#main-navigation 
+ {
+	display:block;	 
+ }
+ 
+ h1,h2,h3,h4{ color:#FF5; }
+ a.logo,a:hover { color:#ff5; }
+ 
+ 
+ 
+
+ 
+ 
+ 
+ /*========== MEDIA QUERIES Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) 
+	{
+		nav#main-navigation
+		{
+     	 	position:static;
+		}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) 
+	{
+		
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) 
+	{	
+		
+		nav#main-navigation
+		{	
+			position:absolute;
+			top:17px;
+		}
+		
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) 
+	{
+		
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) 
+	{
+		
+	
+ 	
+    }
+
+
+
+    
